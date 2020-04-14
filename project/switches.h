@@ -10,6 +10,6 @@
 
 void switch_init();
 void switch_interrupt_handler();
-
+void switch_state_machine(int state);
 extern char switch_state_changed;
 #endif //included
